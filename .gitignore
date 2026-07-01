@@ -1,0 +1,19 @@
+# Visual Studio & MSBuild
+[Bb]in/
+[Oo]bj/
+*.user
+*.userprefs
+*.suo
+*.sln.docstates
+
+# Mono / VS Code / JetBrains
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# OS metadata
+.DS_Store
+Thumbs.db
