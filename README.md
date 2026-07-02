@@ -24,7 +24,7 @@ This repository hosts pro-developer extensions for the **Smart Fleet Management 
 
 ## Features
 
-### 1. Frontend: Vehicle Form Logic ([cr_vehicle_form.js](file:///Users/aibrahim/Documents/GitHub/Smart%20Fleet%20and%20Asset%20Management/src/client/WebResources/js/cr_vehicle_form.js))
+### 1. Frontend: Vehicle Form Logic ([cr_vehicle_form.js](file://src/client/WebResources/js/cr_vehicle_form.js))
 Targeted at the Model-Driven Form for **Vehicle** (`cr_vehicle`).
 * **OnLoad & OnChange Handlers**: Dynamically listens to updates on the Status (`cr_status`) field.
 * **Conditional Enforcement**:
@@ -36,7 +36,7 @@ Targeted at the Model-Driven Form for **Vehicle** (`cr_vehicle`).
     * Unlocks the **Assigned Driver** field.
     * Clears the repair warning banner.
 
-### 2. Backend: Mileage Aggregation & Maintenance Alert ([PostAssetLogCreate.cs](file:///Users/aibrahim/Documents/GitHub/Smart%20Fleet%20and%20Asset%20Management/src/server/Plugins/PostAssetLogCreate.cs))
+### 2. Backend: Mileage Aggregation & Maintenance Alert ([PostAssetLogCreate.cs](file://src/server/Plugins/PostAssetLogCreate.cs))
 Targeted at the **Asset Log** (`cr_assetlog`) table on **Post-Operation Create** (Stage 40).
 * **Automated Aggregation**:
   * Extracts the newly logged trip mileage (`cr_mileageincurred`) and references the parent vehicle (`cr_vehicleid`).
@@ -95,7 +95,7 @@ Follow these steps to deploy and configure the client-side scripting on your Veh
    - **Display Name**: Vehicle Form Script
    - **Name**: `cr_vehicle_form.js`
    - **Type**: Script (JavaScript)
-   - **File**: Upload the [cr_vehicle_form.js](file:///Users/aibrahim/Documents/GitHub/Smart%20Fleet%20and%20Asset%20Management/src/client/WebResources/js/cr_vehicle_form.js) file from this repository.
+   - **File**: Upload the [cr_vehicle_form.js](file://src/client/WebResources/js/cr_vehicle_form.js) file from this repository.
 5. Click **Save** and then click **Publish**.
 
 ### Step 2: Configure Form Event Handlers
